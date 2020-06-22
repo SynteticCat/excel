@@ -1,8 +1,15 @@
 Excel on Native JavaScript
 
 Webpack  
-* Babel (transpiler)
-* Scss (preprocessor)
+* module/rules
+   * Babel ()
+      * [babel-loader](https://github.com/babel/babel-loader) (transpiling JavaScript)
+      * [@babel/preset-env](https://babeljs.io/docs/en/babel-preset-env#how-does-it-work) (allows to use latest JavaScript without needing to micromanage which syntax transforms)
+   * Scss (CSS preprocessor)
+      * sass
+      * [sass-loader](https://webpack.js.org/loaders/sass-loader/) (load sass/scss files and compiles it to CSS)
+      * [mini-css-extract-plugin](https://webpack.js.org/plugins/mini-css-extract-plugin/) (creates a CSS file per JS file which contains CSS)
+      * [css-loader](https://webpack.js.org/loaders/css-loader/) (interprets @import and url() like import/require())
 * Eslint (linter)
 * 2 Modes
     * dev
