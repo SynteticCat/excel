@@ -1,0 +1,17 @@
+@import "resets/normalize.scss";
+@import "resets/typography.scss";
+
+@import "components/header.scss";
+@import "components/toolbar.scss";
+@import "components/formula.scss";
+@import "components/table.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.excel {
+    position: relative;
+}

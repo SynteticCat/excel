@@ -1,4 +1,4 @@
 import './module';
-import './scss/test.scss';
+import './scss/index.scss';
 
 console.log('index js');
