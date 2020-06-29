@@ -18,15 +18,15 @@ Tasks:
 ~.~
 
 ## Packages:
-* [@babel/core]()()
-* ["@babel/preset-env](https://babeljs.io/docs/en/babel-preset-env#how-does-it-work) (allows to use latest JS without needing to micromanage which syntax transforms)
-* [babel-eslint]()()
+* [@babel/core](https://babeljs.io/docs/en/babel-core) (Babel compiler core)
+* [@babel/preset-env](https://babeljs.io/docs/en/babel-preset-env#how-does-it-work) (Babel preset for each environment)
+* [babel-eslint](https://github.com/babel/eslint-plugin-babel) (allows you to lint all valid Babel code with the fantastic ESLint)
 * [babel-loader](https://github.com/babel/babel-loader) (transpiling JavaScript)
 * [clean-webpack-plugin](https://github.com/johnagan/clean-webpack-plugin) (plugin will remove all files inside webpack's output.path directory)
 * [copy-webpack-plugin](https://github.com/webpack-contrib/copy-webpack-plugin) (copies individual files or entire directories, which already exist, to the build directory)
 * [cross-env](https://www.npmjs.com/package/cross-env) (run scripts that set and use environment variables across platforms)
 * [css-loader](https://webpack.js.org/loaders/css-loader/) (interprets @import and url() like import/require())
-* [eslint]()()
+* [eslint](https://github.com/eslint/eslint) (tool for identifying and reporting on patterns found in ECMAScript/JavaScript code)
 * [eslint-config-google]()()
 * [eslint-loader]()()
 * [html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin) (simplifies creation of HTML files to serve webpack bundles)
