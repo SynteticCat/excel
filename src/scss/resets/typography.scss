@@ -1,0 +1,14 @@
+/**
+  This file isn’t part of either normalize CSS or CSS reset, 
+  it’s a basic style sheet with the website’s typography, 
+  containing properties like direction, font-family, font-size, 
+  line-height, font color.
+  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #000;
+}
