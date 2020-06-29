@@ -39,7 +39,7 @@ Tasks:
 * HTML/CSS
   * [css-loader](https://webpack.js.org/loaders/css-loader/) (interprets @import and url() like import/require())
   * [html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin) (simplifies creation of HTML files to serve webpack bundles)
-  * [mini-css-extract-plugin] (creates a CSS file per JS file which contains CSS)
-  * [sass]()(a Dart implementation of Sass, CSS preprocessing)
+  * [mini-css-extract-plugin](https://webpack.js.org/plugins/mini-css-extract-plugin/) (creates a CSS file per JS file which contains CSS)
+  * [sass](https://github.com/sass/dart-sass) (a Dart implementation of Sass, CSS preprocessing)
   * [sass-loader](https://webpack.js.org/loaders/sass-loader/) (load sass/scss files and compiles it to CSS)
   * [normalize.css](https://necolas.github.io/normalize.css/) (makes browsers render all elements more consistently)
