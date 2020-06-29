@@ -17,7 +17,7 @@ Tasks:
 ## Technical task  
 ~.~
 
-## Packages:
+## Packages
 * Webpack
   * [webpack](https://www.npmjs.com/package/webpack) (module bundler)
   * [webpack-cli](https://www.npmjs.com/package/webpack-cli) (provides a flexible set of commands for developers)
@@ -36,9 +36,10 @@ Tasks:
     * [eslint](https://github.com/eslint/eslint) (tool for identifying and reporting on patterns found in ECMAScript/JavaScript code)
     * [eslint-config-google](https://github.com/google/eslint-config-google) (some rules for ESLint)
     * [eslint-loader](https://webpack.js.org/loaders/eslint-loader/) (ESLint loader)
-* HTML/CSS
-  * [css-loader](https://webpack.js.org/loaders/css-loader/) (interprets @import and url() like import/require())
+* HTML
   * [html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin) (simplifies creation of HTML files to serve webpack bundles)
+* CSS
+  * [css-loader](https://webpack.js.org/loaders/css-loader/) (interprets @import and url() like import/require())
   * [mini-css-extract-plugin](https://webpack.js.org/plugins/mini-css-extract-plugin/) (creates a CSS file per JS file which contains CSS)
   * [sass](https://github.com/sass/dart-sass) (a Dart implementation of Sass, CSS preprocessing)
   * [sass-loader](https://webpack.js.org/loaders/sass-loader/) (load sass/scss files and compiles it to CSS)
